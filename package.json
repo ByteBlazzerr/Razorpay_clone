@@ -1,6 +1,10 @@
 {
+  "homepage": "https://ByteBlazzerr.github.io/Razorpay_clone",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
@@ -12,3 +16,5 @@
     "feather": "^0.0.5"
   }
 }
+
+
